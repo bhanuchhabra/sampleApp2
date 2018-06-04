@@ -32,7 +32,6 @@ namespace SalaryModel.Models
         [JsonProperty(PropertyName = "SuperRate")]
         public virtual int SuperRate { get; set; }
 
-        [Required(ErrorMessage = "Payment start is required")]
         [JsonProperty(PropertyName = "PaymentStartDate")]
         public virtual DateTime? PaymentStartDate { get; set; }
     }
